@@ -23,14 +23,24 @@ dist-ssr
 *.sln
 *.sw?
 
-# Ignore node modules
-node_modules/
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
 
-# Ignore build output
-dist/
+# testing
+/coverage
 
-# Ignore lock file
+# production
+/dist
+
+# misc
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local configs
 package-lock.json
-
-# Ignore local config
 snippets.json
+
